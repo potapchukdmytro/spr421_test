@@ -12,5 +12,11 @@ namespace ConsoleApp1
         {
             return Encoding.UTF8.GetBytes(text);
         }
+
+        public string ToString(byte[] bytes)
+        {
+            return Encoding.UTF8.GetString(bytes);
+        }
+
     }
 }
