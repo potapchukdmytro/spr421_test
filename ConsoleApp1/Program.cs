@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Github");
 
-            ConsoleService.WriteLineColored("Hello", ConsoleColor.Magenta);
+            ConsoleExtensions.WriteLineColored("Hello", ConsoleColor.Magenta);
         }
     }
 }
