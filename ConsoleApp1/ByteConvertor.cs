@@ -18,5 +18,9 @@ namespace ConsoleApp1
             return Encoding.UTF8.GetString(bytes);
         }
 
+        public string ToStringDefault(byte[] bytes)
+        {
+            return Encoding.Default.GetString(bytes);
+        }
     }
 }
