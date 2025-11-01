@@ -15,5 +15,12 @@
             Console.WriteLine(text);
             Console.ResetColor();
         }
+
+        public static void WriteColored(string text, ConsoleColor color = ConsoleColor.Gray)
+        {
+            Console.ForegroundColor = color;
+            Console.Write(text);
+            Console.ResetColor();
+        }
     }
 }
